@@ -1,0 +1,40 @@
+To create a program that allows user input for a character in Dart, you can use the 'stdin' object from the 'dart:io' library. Here's an example:
+
+import 'dart:io';
+
+void main() {
+
+  stdout.write('Enter a Gender: ');
+
+  String? input = stdin.readLineSync();
+
+  if (input!.length > 0) 
+  {
+    
+    var gender = input[0];
+
+    print('Gender is $gender');
+
+    var ascii = input.runes.first;
+
+    print('Character ASCII: $ascii');
+
+  } 
+  else 
+  {
+
+    print('Invalid input. Please enter a single character.');
+
+  }
+
+}
+
+output
+
+Enter a Gender: male
+Gender is m
+Character ASCII: 109
+
+Enter a Gender: female
+Gender is f
+Character ASCII: 102

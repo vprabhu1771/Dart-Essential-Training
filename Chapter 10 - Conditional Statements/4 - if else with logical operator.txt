@@ -1,0 +1,17 @@
+void main() {
+    
+    final int age = 100;
+    
+    if (age >= 18 && age <= 100)
+    {
+    	print("Congrats. You are eligible for voting");
+    }
+    else
+    {
+        print("Sorry. You are not eligible for voting");
+    }
+    
+}
+
+Output
+Congrats. You are eligible for voting

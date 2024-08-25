@@ -1,0 +1,16 @@
+Removes all elements from the Map if condition is valid.
+
+void main() {
+  Map<String, String> countryCapital = {
+    'USA': 'Washington, D.C.',
+    'India': 'New Delhi',
+    'China': 'Beijing'
+  };
+
+  countryCapital.removeWhere((key, value) => key == 'USA');
+
+  print(countryCapital);
+}
+
+OUTPUT
+{India: New Delhi, China: Beijing}

@@ -1,0 +1,12 @@
+This method replaces all occurrences of a substring within the string with another substring.
+
+void main() {
+ 
+  String data = "Hello, World!";
+
+  print(data.replaceAll("o", "0"));
+  
+}
+
+OUTPUT
+Hell0, W0rld!

@@ -1,0 +1,13 @@
+This method checks if the string is empty (contains no characters).
+
+void main() {
+ 
+  String data = "";
+
+  print(data.isEmpty);
+  
+}
+
+OUTPUT
+
+true

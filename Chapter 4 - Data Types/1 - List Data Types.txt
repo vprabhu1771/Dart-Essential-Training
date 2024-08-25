@@ -1,0 +1,32 @@
+Dart has a variety of built-in data types that you can use to declare variables and store different kinds of values. Here are the most commonly used data types in Dart:
+
+1. Numbers:
+   - `int`: Represents integer values, such as 1, 2, -5, etc.
+   - `double`: Represents floating-point numbers, such as 3.14, -0.5, etc.
+
+2. Strings:
+   - `String`: Represents a sequence of characters, such as "Hello, Dart!" or 'OpenAI'.
+
+3. Booleans:
+   - `bool`: Represents boolean values, which can be either `true` or `false`.
+
+4. Lists:
+   - `List`: Represents an ordered collection of objects. It can contain elements of any type. Lists in Dart are zero-based, meaning the first element is at index 0.
+
+5. Maps:
+   - `Map`: Represents an unordered collection of key-value pairs. Keys and values can be of any type.
+
+6. Sets:
+   - `Set`: Represents an unordered collection of unique objects. Sets do not allow duplicate elements.
+
+7. Runes:
+   - `Runes`: Represents a sequence of Unicode code points. It is used for working with characters beyond the basic ASCII range.
+
+8. Symbols:
+   - `Symbol`: Represents an identifier that is unique within a Dart program. Symbols are often used for metaprogramming and reflection.
+
+Additionally, Dart supports the concept of nullable types with the introduction of null safety in Dart 2.12 and later versions. This allows you to specify whether a variable can hold a null value or not by using the `?` modifier.
+
+For example, you can declare a nullable integer variable like this: `int? nullableInt = null`.
+
+These are the fundamental data types in Dart. You can also define your own custom data types using classes and enums to model more complex structures and behaviors in your code.

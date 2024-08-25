@@ -1,0 +1,19 @@
+for loop:
+The for loop is used to iterate a specific number of times. It consists of three parts: initialization, condition, and increment/decrement.
+
+for (initialization; condition; increment/decrement) {
+  // Code to be executed
+}
+
+
+for (var i = 0; i < 5; i++) {
+  print('Iteration $i');
+}
+
+output
+
+Iteration 0
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4

@@ -1,0 +1,21 @@
+You can access the List item by index. Remember that the List index always starts with 0.
+
+void main() {
+  var list = [210, 21, 22, 33, 44, 55];
+
+  print(list[0]);
+  print(list[1]);
+  print(list[2]);
+  print(list[3]);
+  print(list[4]);
+  print(list[5]);
+}
+
+OUTPUT
+
+210
+21
+22
+33
+44
+55

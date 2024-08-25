@@ -1,0 +1,15 @@
+Formatting dates: You can format DateTime objects into strings using the intl package or built-in methods.
+
+Using the built-in methods:
+
+DateTime now = DateTime.now();
+String formattedDate = "${now.year}-${now.month}-${now.day}"; // Custom format
+String formattedTime = "${now.hour}:${now.minute}:${now.second}"; // Custom format
+
+Using the intl package:
+
+import 'package:intl/intl.dart';
+
+DateTime now = DateTime.now();
+String formattedDate = DateFormat('yyyy-MM-dd').format(now);
+String formattedTime = DateFormat('HH:mm:ss').format(now);

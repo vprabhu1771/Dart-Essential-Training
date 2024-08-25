@@ -1,0 +1,18 @@
+length: Returns the number of characters in a string.
+
+void main() {
+    
+    String myString = “Hello, Dart!”;
+ 
+   // length will be 12
+    int length = myString.length;
+  
+    print(myString.length);
+  
+    print(length);
+
+}
+
+output
+12
+12

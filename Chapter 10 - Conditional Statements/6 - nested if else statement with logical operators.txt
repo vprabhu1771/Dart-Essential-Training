@@ -1,0 +1,27 @@
+void main() {
+    
+    final int age = 20;
+    
+    if (age >= 18 && age <= 22)
+    {
+    	print("Congrats. You are eligible for Home Loan");
+        
+        if (age >= 18 && age <= 20)
+        {
+            print("Car loan also available");
+        }
+        else
+        {
+            print("Car loan not available");
+        }
+    }
+    else
+    {
+        print("Sorry. You are not eligible for Home Loan");
+    }
+    
+}
+
+Output
+Congrats. You are eligible for Home Loan
+Car loan also available

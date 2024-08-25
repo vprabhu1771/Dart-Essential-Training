@@ -1,0 +1,13 @@
+It returns the first element in the List.
+
+void main() 
+{
+   
+   List<String> drinks = ["water", "juice", "milk", "coke"];
+   
+   print("First element of the List is: ${drinks.first}");
+   
+}  
+
+OUTPUT
+First element of the List is: water

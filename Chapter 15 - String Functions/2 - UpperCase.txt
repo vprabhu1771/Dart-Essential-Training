@@ -1,0 +1,13 @@
+To convert a string to upper case 
+
+void main() {
+ 
+  String data = "prabhu";
+
+  print(data.toUpperCase());
+
+}
+
+OUTPUT
+
+PRABHU

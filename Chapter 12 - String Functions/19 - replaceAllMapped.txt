@@ -1,0 +1,4 @@
+replaceAllMapped: Replaces all occurrences of a substring with computed replacements using a function.
+
+String myString = "Hello, Dart!";
+String newString = myString.replaceAllMapped(RegExp(r'[A-Za-z]+'), (match) => match.group(0).toUpperCase()); // "HELLO, DART!"

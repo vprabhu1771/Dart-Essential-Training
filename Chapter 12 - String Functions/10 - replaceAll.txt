@@ -1,0 +1,15 @@
+replaceAll: Replaces all occurrences of a substring with another substring.
+
+void main() {   
+   
+    String myString = "Hello, Dart!";
+  
+    // "Hello, World!"
+    String newString = myString.replaceAll("Dart", "World");
+
+
+    print(newString);
+}
+
+output
+Hello, World!

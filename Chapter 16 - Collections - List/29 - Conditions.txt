@@ -1,0 +1,12 @@
+You can also use conditions in List. Here sad = false so cart doesn’t contain Beer in it.
+
+void main() {
+  bool sad = false;
+
+  var cart = ['milk', 'ghee', if (sad) 'Beer'];
+
+  print(cart);
+}
+ 
+OUTPUT
+[milk, ghee]

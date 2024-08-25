@@ -1,0 +1,13 @@
+Perform mathematical Modulus or Remainder of division and result Assignment on same variable
+
+void main() {
+    final int x = 7;
+    
+    x %= 3; 
+    
+    print(“x = $x”);
+}
+
+output
+
+x = 1

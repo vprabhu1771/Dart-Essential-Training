@@ -1,0 +1,13 @@
+Removes one element from Set.
+
+void main() 
+{
+  Set<String> fruits = {"Apple", "Orange", "Mango"};
+  
+  fruits.remove("Apple");
+  
+  print("After Removing Apple: $fruits");
+}
+
+OUTPUT
+After Removing Apple: {Orange, Mango}

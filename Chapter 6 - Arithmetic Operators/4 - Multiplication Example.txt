@@ -1,0 +1,20 @@
+Perform mathematical Multiplication
+
+void main() {
+    final int x = 10;
+    
+    final int y = 2;
+    
+    print("x = $x");
+    
+    print("y = $y");
+    
+    print("$x * $y = ${x*y}");
+    
+}
+
+output
+
+x = 10
+y = 2
+10 * 2 = 20

@@ -1,0 +1,4 @@
+trimLeft: Removes leading whitespace from a string.
+
+String myString = "   Hello, Dart!   ";
+String trimmedLeft = myString.trimLeft(); // "Hello, Dart!   "

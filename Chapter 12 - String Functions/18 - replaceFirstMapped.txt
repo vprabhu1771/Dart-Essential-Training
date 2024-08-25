@@ -1,0 +1,5 @@
+replaceFirstMapped: Replaces the first occurrence of a substring with another substring, optionally using a function to compute the replacement.
+
+String myString = "Hello, Dart!";
+
+String newString2 = myString.replaceFirstMapped(RegExp(r'[A-Za-z]+'), (match) => match.group(0).toUpperCase()); // "HELLO, Dart!"

@@ -1,0 +1,16 @@
+Add one element at a time and returns the modified List object.
+
+void main() 
+{  
+    var evenList = [2,4,6,8,10];
+
+    print(evenList); 
+
+    evenList.add(12);
+
+    print(evenList);      
+}  
+
+OUTPUT
+[2, 4, 6, 8, 10]
+[2, 4, 6, 8, 10, 12]

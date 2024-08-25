@@ -1,0 +1,4 @@
+splitMapJoin: Splits the string into a list of substrings, applies a transformation function to each substring, and then joins the transformed substrings into a single string.
+
+String myString = "apple,orange,banana";
+String concatenatedFruits = myString.split(",").map((fruit) => fruit.toUpperCase()).join(" and "); // "APPLE and ORANGE and BANANA"

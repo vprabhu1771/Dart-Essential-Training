@@ -1,0 +1,17 @@
+If you want to update an element of the existing Map. Here is the way for you:
+
+void main() {
+  Map<String, String> countryCapital = {
+    'USA': 'Nothing',
+    'India': 'New Delhi',
+    'China': 'Beijing'
+  };
+
+  // Adding New Item
+  countryCapital['USA'] = 'Washington, D.C.';
+
+  print(countryCapital);
+}
+
+OUTPUT
+{USA: Washington, D.C., India: New Delhi, China: Beijing}

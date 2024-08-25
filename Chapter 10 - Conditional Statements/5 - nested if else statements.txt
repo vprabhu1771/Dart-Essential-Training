@@ -1,0 +1,27 @@
+void main() {
+    
+    final int age = 20;
+    
+    if (age >= 18)
+    {
+    	print("your age is over 18");
+        
+        if (age >= 20)
+        {
+            print("your age is over 20");
+        }
+        else
+        {
+            print("your age below 20");
+        }
+    }
+    else
+    {
+        print("your age is over 18");
+    }
+    
+}
+
+Output
+your age is over 18
+your age is over 20

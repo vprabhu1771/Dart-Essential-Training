@@ -1,0 +1,26 @@
+void main() {
+
+  int option = 1;
+
+  switch (option) {
+    case 1:
+      print('Good Morning');
+      break;
+    case 2:
+      print('Good Afternoon');
+      break;
+    case 3:
+      print('Good Evening');
+      break;
+    case 4:
+      print('Good Night');
+      break;
+    default:
+      print('Invalid Options');
+  }
+
+}
+
+Output
+
+Good Morning

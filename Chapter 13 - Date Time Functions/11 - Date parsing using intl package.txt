@@ -1,0 +1,6 @@
+Date parsing using intl package: The intl package can also be used to parse date strings into DateTime objects.
+
+import 'package:intl/intl.dart';
+
+String dateString = '2023-07-05';
+DateTime parsedDate = DateFormat('yyyy-MM-dd').parse(dateString);

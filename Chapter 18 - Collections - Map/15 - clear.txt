@@ -1,0 +1,16 @@
+Removes all elements from the Map.
+
+void main() {
+  Map<String, String> countryCapital = {
+    'USA': 'Washington, D.C.',
+    'India': 'New Delhi',
+    'China': 'Beijing'
+  };
+
+  countryCapital.clear();
+
+  print(countryCapital);
+}
+
+OUTPUT
+{}

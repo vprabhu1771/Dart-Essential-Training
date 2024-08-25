@@ -1,0 +1,13 @@
+Timezone support: Dart's DateTime class does not inherently support timezones, but you can use external libraries like timezone to work with timezones.
+
+import 'package:timezone/timezone.dart' as tz;
+
+// Get the current timezone
+tz.Location timeZone = tz.getLocation('America/New_York');
+
+// Convert a DateTime to a TZDateTime (timezone-aware DateTime)
+DateTime now = DateTime.now();
+tz.TZDateTime timeZoneDateTime = tz.TZDateTime.from(now, timeZone);
+
+// Convert a TZDateTime to a specific timezone
+tz.TZDateTime specificTimeZoneDateTime = timeZoneDateTime.toLocal();

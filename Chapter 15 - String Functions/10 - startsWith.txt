@@ -1,0 +1,13 @@
+startsWith These methods check if a string starts with a specified substring.
+
+void main() {
+ 
+  String data = "Hello, World!";
+
+  print(data.startsWith("Hello"));
+  
+}
+
+OUTPUT
+
+true

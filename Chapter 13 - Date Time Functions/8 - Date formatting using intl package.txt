@@ -1,0 +1,11 @@
+Date formatting using intl package: The intl package provides a powerful and flexible way to format dates and times.
+
+import 'package:intl/intl.dart';
+
+DateTime now = DateTime.now();
+
+// Formatted date with full month name and weekday
+String formattedFullDate = DateFormat('EEEE, MMMM d, y').format(now);
+
+// Formatted time with AM/PM indicator
+String formattedTimeWithAmPm = DateFormat('hh:mm a').format(now);

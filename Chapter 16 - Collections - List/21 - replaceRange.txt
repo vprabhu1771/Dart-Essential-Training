@@ -1,0 +1,30 @@
+The replaceRange method allows you to replace a range of elements or characters within the string or list with new elements or characters.
+
+Here's the general syntax for using replaceRange:
+
+String replaceRange(int start, int end, String replacement)
+List<E> replaceRange(int start, int end, Iterable<E> replacement)
+
+
+
+start: The index at which to start replacing elements or characters.
+
+end: The index just after the end index of the range to be replaced. This means that the element or character at this index will not be included in the replacement.
+
+replacement: The new string or list of elements that will replace the specified range.
+
+
+
+void main() {
+  var list = [10, 15, 20, 25, 30];
+
+  print("List before updation: ${list}");
+
+  list.replaceRange(0, 4, [5, 6, 7, 8]);
+
+  print("List after updation using replaceAll() function : ${list}");
+}
+
+OUTPUT
+List before updation: [10, 15, 20, 25, 30]
+List after updation using replaceAll() function : [5, 6, 7, 8, 30]

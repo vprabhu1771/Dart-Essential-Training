@@ -1,0 +1,5 @@
+containsNone: Checks if the string contains none of the specified characters.
+
+String myString = "Hello123";
+bool containsNoneLetters = myString.containsNone(RegExp(r'[A-Za-z]+')); // false (contains letters)
+bool containsNoneSpecialChars = myString.containsNone(RegExp(r'[!@#\$%^&*()_+]+')); // true (doesn't contain any special characters)

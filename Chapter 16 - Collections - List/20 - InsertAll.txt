@@ -1,0 +1,15 @@
+Insert the multiple value at the specified index position.
+
+void main() {
+  var myList = [3, 4, 2, 5];
+
+  print(myList);
+
+  myList.insertAll(1, [6, 7, 10, 9]);
+
+  print(myList);
+}
+
+OUTPUT
+[3, 4, 2, 5]
+[3, 6, 7, 10, 9, 4, 2, 5]

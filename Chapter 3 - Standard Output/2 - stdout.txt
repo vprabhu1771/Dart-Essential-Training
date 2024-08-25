@@ -1,0 +1,17 @@
+import 'dart:io';
+
+void main() 
+{
+  
+  // The text will be displayed without a newline character.
+  stdout.write('Enter your name: ');
+  
+  // Read user input from stdin.
+  var name = stdin.readLineSync();
+
+  print('Hello, $name!');
+}
+
+Output
+Enter your name: prabhu
+Hello, prabhu!

@@ -1,0 +1,15 @@
+If you want to see whether the Set contains specific items or not, you can use the contains method, which returns true or false.
+
+void main() 
+{
+  // declaring fruits as Set
+  Set<String> fruits = {"Apple", "Orange", "Mango", "Banana"};
+
+  // using different properties of Set
+  print(fruits.contains("Mango"));
+  print(fruits.contains("Lemon"));
+}
+
+OUTPUT
+true
+false

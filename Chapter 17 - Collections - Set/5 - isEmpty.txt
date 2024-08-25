@@ -1,0 +1,13 @@
+Return true or false.
+
+void main() 
+{
+  // declaring fruits as Set
+  Set<String> fruits = {"Apple", "Orange", "Mango", "Banana"};
+
+  // using different properties of Set
+  print("Is fruits empty? ${fruits.isEmpty}");
+}
+
+OUTPUT
+Is fruits empty? false

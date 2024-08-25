@@ -1,0 +1,14 @@
+This method splits the string, applies a function to each part, and then joins the results into a single string.
+
+void main() {
+  
+  String data = "Hello,World!";
+  
+  String processedString = data.splitMapJoin(',', onMatch: (m) => '!', onNonMatch: (n) => n.toUpperCase());
+
+  print(processedString);
+
+}
+
+OUTPUT
+HELLO!WORLD!

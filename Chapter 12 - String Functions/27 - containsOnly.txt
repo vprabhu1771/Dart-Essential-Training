@@ -1,0 +1,5 @@
+containsOnly: Checks if the string contains only the specified characters.
+
+String myString = "Hello123";
+bool containsOnlyLetters = myString.containsOnly(RegExp(r'[A-Za-z]+')); // false
+bool containsOnlyNumbers = myString.containsOnly(RegExp(r'[0-9]+')); // false

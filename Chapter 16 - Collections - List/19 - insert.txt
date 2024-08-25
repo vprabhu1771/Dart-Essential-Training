@@ -1,0 +1,18 @@
+Provides the facility to insert an element at a specified index position.
+
+void main() {
+
+  List myList = [3, 4, 2, 5];
+
+  print(myList);
+
+  myList.insert(2, 15);
+
+  print(myList);
+
+}
+
+OUTPUT
+
+[3, 4, 2, 5]
+[3, 4, 15, 2, 5]

@@ -1,0 +1,13 @@
+It returns the length of the Set.
+
+void main() 
+{
+  // declaring fruits as Set
+  Set<String> fruits = {"Apple", "Orange", "Mango", "Banana"};
+
+  // using different properties of Set
+  print("The length of fruits is ${fruits.length}");
+}
+
+OUTPUT
+The length of fruits is 4

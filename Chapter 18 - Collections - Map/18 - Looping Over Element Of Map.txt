@@ -1,0 +1,19 @@
+You can use any loop in Map to print all keys/values or to perform operations in its keys and values.
+
+void main() {
+  Map<String, String> countryCapital = {
+    'USA': 'Washington, D.C.',
+    'India': 'New Delhi',
+    'China': 'Beijing'
+  };
+
+   // Loop Through Map
+  for(MapEntry element in countryCapital.entries){
+    print('Key is ${element.key}, value ${element.value}');
+  }
+}
+
+OUTPUT
+Key is USA, value Washington, D.C.
+Key is India, value New Delhi
+Key is China, value Beijing

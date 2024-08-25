@@ -1,0 +1,22 @@
+startsWith : Checks if a string starts with a specific substring.  (with optional index): These methods can also be used with an optional index parameter to check for substrings starting/ending at a specific index.
+
+void main() {
+    
+    String myString = "Hello, Dart!";
+
+    // true
+    bool startsWithHello = myString.startsWith("Hello");
+  
+    print(startsWithHello);
+
+    // true
+    bool startsWithDart = myString.startsWith("Dart", 7);   
+  
+    print(startsWithDart);  
+
+}
+
+output
+true
+true
+

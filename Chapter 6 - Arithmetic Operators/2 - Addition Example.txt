@@ -1,0 +1,20 @@
+Perform mathematical Addition
+
+void main() {
+    final int x = 2;
+    
+    final int y = 2;
+    
+    print("x = $x");
+    
+    print("y = $y");
+    
+    print("$x + $y = ${x+y}");
+    
+}
+
+output
+
+x = 2
+y = 2
+2 + 2 = 4

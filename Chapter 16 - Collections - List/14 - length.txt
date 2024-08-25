@@ -1,0 +1,12 @@
+It returns the length of the List.
+
+void main() 
+{
+  List<String> drinks = ["water", "juice", "milk", "coke"];  
+  
+  print("Length is : "+drinks.length.toString());
+   
+}
+
+OUTPUT
+Length is : 4

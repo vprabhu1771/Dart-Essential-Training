@@ -1,0 +1,54 @@
+Dart supports several data types, including:
+
+1. Numbers: Dart has two main types for representing numbers:
+   - `int`: Used for representing whole numbers (integers) without a fractional component. For example: `int age = 30;`
+   - `double`: Used for representing numbers with a fractional component. For example: `double pi = 3.14;`
+
+2. Strings: Dart represents strings of characters using the `String` type. Strings are enclosed in single quotes (`'`) or double quotes (`"`). For example: `String message = 'Hello, Dart!';`
+
+3. Booleans: Dart has a Boolean type called `bool` that represents the values `true` or `false`. For example: `bool isRaining = true;`
+
+4. Lists: Dart provides a built-in list type called `List` for representing ordered collections of objects. Lists can contain elements of different types. For example: 
+   ```
+   List<int> numbers = [1, 2, 3, 4, 5];
+   List<String> names = ['Alice', 'Bob', 'Charlie'];
+   ```
+
+5. Maps: Dart has a map type called `Map` for representing key-value pairs. A map stores associations between keys and their corresponding values. For example:
+   ```
+   Map<String, int> scores = {
+     'Alice': 90,
+     'Bob': 85,
+     'Charlie': 95,
+   };
+   ```
+
+6. Sets: Dart provides a set type called `Set` for representing unordered collections of unique objects. Sets ensure that each element is unique and unordered. For example:
+   ```
+   Set<int> numbers = {1, 2, 3, 4, 5};
+   Set<String> colors = {'red', 'green', 'blue'};
+   ```
+
+Here are some examples of using these data types:
+
+```dart
+int age = 30;
+double pi = 3.14;
+
+String message = 'Hello, Dart!';
+bool isRaining = true;
+
+List<int> numbers = [1, 2, 3, 4, 5];
+List<String> names = ['Alice', 'Bob', 'Charlie'];
+
+Map<String, int> scores = {
+  'Alice': 90,
+  'Bob': 85,
+  'Charlie': 95,
+};
+
+Set<int> uniqueNumbers = {1, 2, 3, 4, 5};
+Set<String> uniqueColors = {'red', 'green', 'blue'};
+```
+
+These examples demonstrate the basic usage of Dart's data types. Keep in mind that Dart also provides additional features and operations for working with these data types, such as methods, operators, and libraries that enhance their functionality.

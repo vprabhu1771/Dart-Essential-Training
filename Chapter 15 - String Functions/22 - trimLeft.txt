@@ -1,0 +1,13 @@
+These methods remove leading or trailing whitespace (or other characters) from the string.
+
+void main() {
+  
+  String data = "   Hello, World!   ";
+
+  print(data.trimLeft());
+
+}
+
+OUTPUT
+
+Hello, World!   

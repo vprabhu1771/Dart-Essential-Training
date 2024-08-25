@@ -1,0 +1,5 @@
+trimRight: Removes trailing whitespace from a string.
+
+String myString = "   Hello, Dart!   ";
+
+String trimmedRight = myString.trimRight(); // "   Hello, Dart!"

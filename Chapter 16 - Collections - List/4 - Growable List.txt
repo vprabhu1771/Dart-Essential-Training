@@ -1,0 +1,10 @@
+A List defined without a specified length is called Growable List. The length of the growable List can be changed in runtime.
+
+void main() {  
+   var list1 = [210,21,22,33,44,55];  
+   print(list1);  
+}  
+
+OUTPUT
+
+[210, 21, 22, 33, 44, 55]

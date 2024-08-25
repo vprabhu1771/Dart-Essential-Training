@@ -1,0 +1,18 @@
+toLowerCase: Converts a string to lowercase.
+
+void main() {
+    
+    String myString = "HELLO, DART!";
+
+    // "hello, dart!"
+    String lowerCaseString = myString.toLowerCase(); 
+
+    print(myString.toLowerCase());
+  
+    print(lowerCaseString);  
+
+}
+
+OUTPUT
+
+hello, dart!

@@ -1,0 +1,14 @@
+Perform mathematical Multiplication and result Assignment on same 
+variable
+
+void main() {
+    final int x = 10;
+    
+    x *= 2; 
+    
+    print(“x = $x”);
+}
+
+output
+
+x = 20

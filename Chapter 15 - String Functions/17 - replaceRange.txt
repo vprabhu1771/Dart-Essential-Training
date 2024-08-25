@@ -1,0 +1,13 @@
+This method replaces the substring within the specified range with the provided replacement string.
+
+void main() {
+  
+  String data = "Hello, World!";
+
+  print(data.replaceRange(7, 12, "Universe"));
+
+}
+
+OUTPUT
+
+Hello, Universe!

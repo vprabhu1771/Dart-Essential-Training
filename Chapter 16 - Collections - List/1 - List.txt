@@ -1,0 +1,1 @@
+If you want to store multiple values in the same variable, you can use List. List in dart is similar to Arrays in other programming languages. E.g. to store the names of multiple students, you can use a List. The List is represented by Square Braces[].

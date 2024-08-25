@@ -1,0 +1,18 @@
+Here we are creating a Map for String and String. It means keys and values must be the type of String. You can create a Map of any kind as you like.
+
+void main()
+{  
+  Map<String, String> countryCapital = {
+    'USA': 'Washington, D.C.',
+    'India': 'New Delhi',
+    'China': 'Beijing'
+  };
+
+  print(countryCapital);
+}
+
+OUTPUT
+
+{USA: Washington, D.C., India: New Delhi, China: Beijing}
+
+{USA: Washington, D.C., India: New Delhi, China: Beijing}

@@ -1,0 +1,5 @@
+Adding/Subtracting time: You can perform operations to add or subtract time intervals from a DateTime object.
+
+DateTime now = DateTime.now();
+DateTime nextWeek = now.add(Duration(days: 7)); // Adding 7 days
+DateTime lastMonth = now.subtract(Duration(days: 30)); // Subtracting 30 days

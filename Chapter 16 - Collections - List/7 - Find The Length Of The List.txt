@@ -1,0 +1,12 @@
+You can find the length of List by using .length property.
+
+void main(){  
+   List<String> names = ["Raj", "John", "Rocky"];
+   print(names.length);
+}
+
+OUTPUT
+
+3
+
+Note: Remember that List index starts with 0 and length always starts with 1.

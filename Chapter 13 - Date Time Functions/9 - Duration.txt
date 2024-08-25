@@ -1,0 +1,14 @@
+Duration: Dart's Duration class represents a span of time, allowing you to work with time intervals.
+
+// Create a duration
+Duration duration = Duration(hours: 2, minutes: 30);
+
+// Adding a duration to a DateTime
+DateTime now = DateTime.now();
+DateTime futureDateTime = now.add(duration);
+
+// Subtracting a duration from a DateTime
+DateTime pastDateTime = now.subtract(duration);
+
+// Difference between two DateTimes as a Duration
+Duration difference = futureDateTime.difference(now);

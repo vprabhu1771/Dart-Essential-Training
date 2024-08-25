@@ -1,0 +1,17 @@
+codeUnits: Returns a list of the Unicode code units of all characters in the string.
+
+void main() {   
+   
+    String myString = "Hello";
+  
+    print(myString.codeUnits);
+  
+    // [72, 101, 108, 108, 111]
+    List<int> codeUnitsList = myString.codeUnits; 
+
+    print(codeUnitsList);
+}
+
+output
+[72, 101, 108, 108, 111]
+[72, 101, 108, 108, 111]

@@ -1,0 +1,14 @@
+Perform mathematical Division and result Assignment on same 
+variable
+
+void main() {
+    final int x = 7;
+    
+    x /= 3; 
+    
+    print(“x = $x”);
+}
+
+output
+
+x = 2

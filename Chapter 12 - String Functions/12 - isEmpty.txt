@@ -1,0 +1,17 @@
+isEmpty: Checks if a string is empty (contains no characters).
+
+void main() {   
+   
+    String emptyString = "";
+    
+    print(emptyString.isEmpty);
+    
+    // true
+    bool isEmpty = emptyString.isEmpty;
+
+    print(isEmpty);
+}
+
+output
+true
+true

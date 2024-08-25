@@ -1,0 +1,11 @@
+You can create a Set in Dart using the Set type annotation. Here Set<String> means only text is allowed in the Set.
+
+void main()
+{
+  Set<String> fruits = {"Apple", "Orange", "Mango"};
+
+  print(fruits);
+}
+
+OUTPUT
+{Apple, Orange, Mango}

@@ -1,0 +1,13 @@
+Date arithmetic: Dart's DateTime class allows you to perform various arithmetic operations on dates.
+
+DateTime startDate = DateTime(2023, 7, 5);
+DateTime endDate = DateTime(2023, 7, 15);
+
+// Difference between two dates in days
+int daysDifference = endDate.difference(startDate).inDays;
+
+// Difference between two dates in hours
+int hoursDifference = endDate.difference(startDate).inHours;
+
+// Difference between two dates in minutes
+int minutesDifference = endDate.difference(startDate).inMinutes;

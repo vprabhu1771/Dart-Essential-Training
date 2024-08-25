@@ -1,0 +1,14 @@
+Add one element to Set.
+
+void main() 
+{
+  Set<String> fruits = {"Apple", "Orange", "Mango"};
+  
+  fruits.add("Lemon");
+  fruits.add("Grape");
+  
+  print("After Adding Lemon and Grape: $fruits");
+}
+
+OUTPUT
+After Adding Lemon and Grape: {Apple, Orange, Mango, Lemon, Grape}

@@ -1,0 +1,21 @@
+The while loop repeatedly executes a block of code as long as a given condition is true.
+
+while (condition) {
+  // Code to be executed
+}
+
+
+var count = 0;
+
+while (count < 5) {
+  print('Count: $count');
+  count++;
+}
+
+output
+
+Count: 0
+Count: 1
+Count: 2
+Count: 3
+Count: 4

@@ -1,0 +1,5 @@
+containsAll: Checks if the string contains all the given substrings.
+
+String myString = "Hello, Dart!";
+bool containsAllSubstrings = myString.containsAll(["Hello", "Dart"]); // true
+bool containsAllSubstrings2 = myString.containsAll(["Hello", "World"]); // false (doesn't contain "World")

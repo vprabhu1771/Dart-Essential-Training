@@ -1,0 +1,11 @@
+void main() {
+    final int age = 18;
+    
+    if (age >= 18)
+    {
+        print("Congrats. You are Eligible for voting");
+    }
+}
+
+Output
+Congrats. You are Eligible for voting

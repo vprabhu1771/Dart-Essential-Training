@@ -1,0 +1,16 @@
+void main() {
+  
+  String str1 = "Hello";
+
+  String str2 = "World";
+
+  String result = str1 + " " + str2;
+
+  print(result);
+
+}
+
+
+Output
+
+Hello World

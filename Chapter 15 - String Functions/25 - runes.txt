@@ -1,0 +1,14 @@
+The runes property returns an iterable of Unicode code points in the string.
+
+void main() {
+  
+  String data = "apple";
+
+  print(data.runes.toList());
+
+
+}
+
+OUTPUT
+
+[97, 112, 112, 108, 101]

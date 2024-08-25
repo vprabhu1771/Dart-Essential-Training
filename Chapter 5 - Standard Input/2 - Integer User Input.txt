@@ -1,0 +1,14 @@
+You can take integer input to get a numeric value from the user without the decimal point. E.g. 10, 100, -800 etc.
+
+import 'dart:io';
+
+void main() {
+  print("Enter number:");
+  int? number = int.parse(stdin.readLineSync()!);
+  print("The entered number is ${number}");
+}
+
+output
+Enter number:
+50
+The entered number is 50

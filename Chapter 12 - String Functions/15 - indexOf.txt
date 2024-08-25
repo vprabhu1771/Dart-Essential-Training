@@ -1,0 +1,17 @@
+indexOf: Returns the index of the first/last occurrence of a substring, or -1 if not found.
+
+void main() {   
+   
+    String myString = "Hello, Dart!";
+  
+    print(myString.indexOf("l"));
+  
+    // 2 (index of the first 'l')
+    int index1 = myString.indexOf("l");
+
+    print(index1);
+}
+
+output
+2
+2

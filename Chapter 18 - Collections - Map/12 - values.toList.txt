@@ -1,0 +1,14 @@
+Convert all Maps values to List.
+
+void main() {
+  Map<String, String> countryCapital = {
+    'USA': 'Nothing',
+    'India': 'New Delhi',
+    'China': 'Beijing'
+  };
+
+  print(countryCapital.values.toList());
+}
+
+OUTPUT
+[Nothing, New Delhi, Beijing]

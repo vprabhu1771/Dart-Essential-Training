@@ -1,0 +1,4 @@
+Parsing dates: You can parse date strings into DateTime objects.
+
+String dateString = '2023-07-05';
+DateTime parsedDate = DateTime.parse(dateString);

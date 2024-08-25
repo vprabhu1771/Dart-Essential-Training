@@ -1,0 +1,13 @@
+You can access individual characters in a string using square brackets [].
+
+void main() {
+ 
+  String data = "prabhu";
+
+  print(data[0]);
+  
+}
+
+OUTPUT
+
+p

@@ -1,0 +1,19 @@
+replaceFirst: Replaces the first occurrence of a substring with another substring, optionally using a function to compute the replacement.
+
+void main() {   
+   
+    String myString = "Hello, Dart!";
+    
+    print(myString.replaceFirst("Hello", "Hi"));
+  
+    // "Hi, Dart!"
+    String newString1 = myString.replaceFirst("Hello", "Hi");
+  
+    print(newString1);
+
+}
+
+output
+
+Hi, Dart!
+Hi, Dart!

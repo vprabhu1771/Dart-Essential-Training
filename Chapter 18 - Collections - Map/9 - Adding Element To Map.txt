@@ -1,0 +1,17 @@
+If you want to add an element to the existing Map. Here is the way for you:
+
+void main() {
+  Map<String, String> countryCapital = {
+    'USA': 'Washington, D.C.',
+    'India': 'New Delhi',
+    'China': 'Beijing'
+  };
+
+  // Adding New Item
+  countryCapital['Japan'] = 'Tokio';
+
+  print(countryCapital);
+}
+
+OUTPUT
+{USA: Washington, D.C., India: New Delhi, China: Beijing, Japan: Tokio}

@@ -1,0 +1,16 @@
+You can print all Set items by using loops. Click here if you want to learn loop in dart.
+
+void main() 
+{
+  Set<String> fruits = {"Apple", "Orange", "Mango"};
+  
+  for(String element in fruits)
+  {    
+    print(element);
+  }
+}
+
+OUTPUT
+Apple
+Orange
+Mango

@@ -1,0 +1,20 @@
+Perform mathematical Modulus or Remainder of division
+
+void main() {
+    final int x = 7;
+    
+    final int y = 3;
+    
+    print("x = $x");
+    
+    print("y = $y");
+    
+    print("$x % $y = ${x%y}");
+    
+}
+
+output
+
+x = 7
+y = 3
+7 % 3 = 1

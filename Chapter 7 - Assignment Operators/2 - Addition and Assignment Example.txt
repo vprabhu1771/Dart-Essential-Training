@@ -1,0 +1,14 @@
+Perform mathematical Addition and result Assignment on same 
+variable
+
+void main() {
+    final int x = 2;
+    
+    x += 2;
+    
+    print(“x = $x”);
+}
+
+output
+
+x = 4

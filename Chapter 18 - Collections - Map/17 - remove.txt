@@ -1,0 +1,16 @@
+Suppose you want to remove an element of the existing Map. Here is the way for you:
+
+void main() {
+  Map<String, String> countryCapital = {
+    'USA': 'Washington, D.C.',
+    'India': 'New Delhi',
+    'China': 'Beijing'
+  };
+
+  countryCapital.remove("USA");
+  
+  print(countryCapital);
+}
+
+OUTPUT
+{India: New Delhi, China: Beijing}

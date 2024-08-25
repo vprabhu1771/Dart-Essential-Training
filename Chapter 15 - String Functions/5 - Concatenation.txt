@@ -1,0 +1,15 @@
+To concatenate strings, we can use the ‘+’ operator to concatenate the strings.
+
+void main() {
+ 
+  String str1 = "Hello";
+
+  String str2 = "World";
+
+  print(str1 + " " + str2);
+  
+}
+
+OUTPUT
+
+Hello World

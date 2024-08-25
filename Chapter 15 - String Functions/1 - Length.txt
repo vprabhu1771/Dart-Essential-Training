@@ -1,0 +1,13 @@
+To get the length of a string, you can use the length property.
+
+void main() {
+ 
+  String data = "prabhu";
+  
+  print(data.length); // Outputs: 13
+
+}
+
+
+OUTPUT
+6

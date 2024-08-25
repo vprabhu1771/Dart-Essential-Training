@@ -1,0 +1,14 @@
+You can find the value of Map from its key. Here we are printing Washington, D.C. by its key, i.e., USA.
+
+void main() {
+  Map<String, String> countryCapital = {
+    'USA': 'Washington, D.C.',
+    'India': 'New Delhi',
+    'China': 'Beijing'
+  };
+
+  print(countryCapital["USA"]);
+}
+
+OUTPUT
+Washington, D.C.

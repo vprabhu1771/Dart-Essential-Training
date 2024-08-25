@@ -1,0 +1,17 @@
+Looping In Map Using For Each
+
+void main() {
+  Map<String, String> countryCapital = {
+    'USA': 'Washington, D.C.',
+    'India': 'New Delhi',
+    'China': 'Beijing'
+  };
+
+  // Loop Through For Each
+  countryCapital.forEach((key,value)=> print('Key is $key and value is $value'));
+}
+
+OUTPUT
+Key is USA and value is Washington, D.C.
+Key is India and value is New Delhi
+Key is China and value is Beijing

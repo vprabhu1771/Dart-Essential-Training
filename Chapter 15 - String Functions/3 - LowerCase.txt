@@ -1,0 +1,13 @@
+To convert a string to lower case
+
+void main() {
+ 
+  String data = "PRABHU";
+
+  print(data.toLowerCase());
+
+}
+
+OUTPUT
+
+prabhu

@@ -1,0 +1,8 @@
+Comparing dates: You can compare two DateTime objects to check their relationship.
+
+DateTime firstDate = DateTime(2023, 7, 5);
+DateTime secondDate = DateTime(2023, 7, 10);
+
+bool isBefore = firstDate.isBefore(secondDate); // true
+bool isAfter = firstDate.isAfter(secondDate); // false
+bool isSame = firstDate.isAtSameMomentAs(secondDate); // false

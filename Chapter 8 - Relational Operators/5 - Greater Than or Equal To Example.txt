@@ -1,0 +1,23 @@
+Perform comparison on both values
+
+void main() {
+    final int x = 10;
+    
+    final int y =  10;
+    
+    print(“x = $x”);
+    
+    print(“y = $y”);
+    
+    
+    print(“$x >= $y”);
+    
+    print(“${x >= y}”);
+}
+
+output
+
+x = 10
+y = 10
+10 >= 10
+true

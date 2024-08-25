@@ -1,0 +1,14 @@
+Return true or false.
+
+void main() {
+  Map<String, String> countryCapital = {
+    'USA': 'Washington, D.C.',
+    'India': 'New Delhi',
+    'China': 'Beijing'
+  };
+
+  print(countryCapital.containsValue("New Delhi"));
+}
+
+OUTPUT
+true

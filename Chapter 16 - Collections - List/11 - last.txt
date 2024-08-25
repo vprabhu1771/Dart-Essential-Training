@@ -1,0 +1,13 @@
+It returns the last element in the List.
+
+void main() 
+{
+   
+   List<String> drinks = ["water", "juice", "milk", "coke"];
+   
+   print("Last element of the List is: ${drinks.last}");
+   
+}   
+
+OUTPUT
+Last element of the List is: coke

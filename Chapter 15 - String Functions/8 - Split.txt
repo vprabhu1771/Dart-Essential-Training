@@ -1,0 +1,15 @@
+To split a string into a list of substrings based on a delimiter, you can use the split() method.
+
+void main() {
+ 
+  String data = "apple,banana,orange";
+  
+  List<String> fruits = data.split(",");
+  
+  print(fruits);
+
+}
+
+OUTPUT
+
+[apple, banana, orange]

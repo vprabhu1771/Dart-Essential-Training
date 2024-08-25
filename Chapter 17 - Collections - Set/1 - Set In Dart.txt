@@ -1,0 +1,9 @@
+Set is a unique collection of items. You cannot store duplicate values in the Set. It is unordered, so it can be faster than lists while working with a large amount of data. Set is useful when you need to store unique values without considering the order of the input. E.g., fruits name, months name, days name, etc. It is represented by Curley Braces{}.
+
+Info
+
+Note: The list allows you to add duplicate items, but the Set doesn’t allow it.
+
+Syntax
+
+Set <variable_type> variable_name = {};

@@ -1,0 +1,17 @@
+In this example below, we are removing last item of List using removeLast() method.
+
+void main() {
+
+  var list = [10, 20, 30, 40, 50];
+
+  print("List before removing element:${list}");
+
+  list.removeLast();
+
+  print("List after removing last element:${list}");
+
+}
+
+OUTPUT
+List before removing element:[10, 20, 30, 40, 50]
+List after removing last element:[10, 20, 30, 40]

@@ -1,0 +1,13 @@
+It is used to check if the List has only one element and returns it.
+
+void main() 
+{
+
+  List<String> drinks = ["water"];  
+  
+  print("is Single Element: ${drinks.single}");
+   
+}  
+
+OUTPUT
+water

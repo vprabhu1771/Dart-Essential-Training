@@ -1,0 +1,16 @@
+compareTo: Compares two strings lexicographically and returns an integer indicating the comparison result (0 if equal, a negative value if the first string is lexicographically less than the second, and a positive value if it is greater).
+
+void main() {   
+   
+    String string1 = "apple";
+
+    String string2 = "banana";
+
+    // negative value because "apple" comes before "banana" in lexicographical order
+    int comparisonResult = string1.compareTo(string2);
+
+    print(comparisonResult);
+}
+
+output
+-1

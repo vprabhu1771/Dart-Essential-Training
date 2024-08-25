@@ -1,0 +1,13 @@
+To get last value of Set.
+
+void main() 
+{
+  // declaring fruits as Set
+  Set<String> fruits = {"Apple", "Orange", "Mango", "Banana"};
+
+  // using different properties of Set
+  print("Last Value is ${fruits.last}");
+}
+
+OUTPUT
+Last Value is Banana

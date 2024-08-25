@@ -1,0 +1,10 @@
+void main() {
+
+  final int age = 20;
+
+  print(age >= 18 ? "eligible for voting" : "not eligible for voting");
+
+}
+
+output
+eligible for voting

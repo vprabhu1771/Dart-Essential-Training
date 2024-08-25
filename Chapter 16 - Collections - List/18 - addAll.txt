@@ -1,0 +1,16 @@
+Insert the multiple values to the given List, and each value is separated by the commas and enclosed with a square bracket ([]).
+
+void main() 
+{
+  var evenList = [2, 4, 6, 8, 10];
+
+  print(evenList);
+
+  evenList.addAll([12, 14, 16, 18]);
+
+  print(evenList);  
+}
+
+OUTPUT
+[2, 4, 6, 8, 10]
+[2, 4, 6, 8, 10, 12, 14, 16, 18]

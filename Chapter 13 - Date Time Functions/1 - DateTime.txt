@@ -1,0 +1,7 @@
+    DateTime class: The DateTime class is the core class for working with dates and times in Dart. You can use it to represent a specific point in time.
+
+Creating a DateTime instance:
+
+DateTime now = DateTime.now(); // Current date and time
+DateTime specificDate = DateTime(2023, 7, 5); // Specific date (year, month, day)
+DateTime specificDateTime = DateTime(2023, 7, 5, 12, 30, 45); // Specific date and time (year, month, day, hour, minute, second)

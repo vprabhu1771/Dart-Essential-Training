@@ -1,0 +1,27 @@
+import 'dart:io';
+
+void main() {
+  stdout.write('Enter your name: ');
+  String? name = stdin.readLineSync();
+
+  stdout.write('Enter your age: ');
+  int? age = int.parse(stdin.readLineSync()!);
+
+  stdout.write('Enter your email: ');
+  String? email = stdin.readLineSync();
+
+  print('\n--- User Information ---');
+  print('Name: $name');
+  print('Age: $age');
+  print('Email: $email');
+}
+
+OUTPUT
+Enter your name: prabhu
+Enter your age: 29
+Enter your email: prabhu@gmail.com
+
+--- User Information ---
+Name: prabhu
+Age: 29
+Email: prabhu@gmail.com 

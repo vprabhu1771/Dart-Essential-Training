@@ -1,0 +1,5 @@
+substringAfter: Get the substring after a specific substring.
+
+String myString = "Hello, Dart!";
+
+String afterComma = myString.substringAfter(","); // " Dart!"

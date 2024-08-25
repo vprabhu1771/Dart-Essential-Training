@@ -1,0 +1,12 @@
+You can also change the value of List. You can do it by listName[index]=value;. For more, see the example below.
+
+void main(){  
+   List<String> names = ["Raj", "John", "Rocky"];
+   names[1] = "Bill";
+   names[2] = "Elon";
+   print(names);
+}
+
+OUTPUT
+
+[Raj, Bill, Elon]

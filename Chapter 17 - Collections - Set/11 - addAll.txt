@@ -1,0 +1,13 @@
+Insert the multiple values to the given Set.
+
+void main() 
+{
+  Set<String> fruits = {"Apple", "Orange", "Mango"};
+  
+  fruits.addAll(["Lemon", "Grape"]);
+
+  print("After Adding Lemon and Grape: $fruits");
+}
+
+OUTPUT
+After Adding Lemon and Grape: {Apple, Orange, Mango, Lemon, Grape}

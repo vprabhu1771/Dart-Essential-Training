@@ -1,0 +1,5 @@
+compareToIgnoreCase: Compares two strings lexicographically while ignoring case and returns an integer indicating the comparison result (0 if equal, a negative value if the first string is lexicographically less than the second, and a positive value if it is greater).
+
+String string1 = "apple";
+String string2 = "Apple";
+int comparisonResult = string1.compareToIgnoreCase(string2); // 0 (both are equal when ignoring case)

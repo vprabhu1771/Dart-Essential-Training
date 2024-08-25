@@ -1,0 +1,4 @@
+substringBefore: Get the substring before a specific substring.
+
+String myString = "Hello, Dart!";
+String beforeComma = myString.substringBefore(","); // "Hello"

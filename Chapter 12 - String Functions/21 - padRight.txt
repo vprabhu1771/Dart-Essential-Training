@@ -1,0 +1,5 @@
+padRight: Pads a string on the right with a specified character until it reaches a certain length.
+
+String myString = "Dart";
+
+String paddedRight = myString.padRight(10, '-'); // "Dart------"

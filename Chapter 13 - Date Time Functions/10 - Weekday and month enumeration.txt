@@ -1,0 +1,13 @@
+Weekday and month enumeration: Dart's DateTime class provides constants for weekdays and months.
+
+DateTime date = DateTime(2023, 7, 5);
+
+int day = date.day; // Day of the month (1 to 31)
+int month = date.month; // Month (1 to 12)
+int year = date.year; // Year
+
+int weekDayIndex = date.weekday; // Weekday index (1 to 7, Monday to Sunday)
+String weekDayName = DateFormat('EEEE').format(date); // Weekday name (e.g., Monday)
+
+String monthName = DateFormat('MMMM').format(date); // Full month name (e.g., July)
+String abbreviatedMonthName = DateFormat('MMM').format(date); // Abbreviated month name (e.g., Jul)

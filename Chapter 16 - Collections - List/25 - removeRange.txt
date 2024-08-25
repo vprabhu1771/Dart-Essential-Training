@@ -1,0 +1,17 @@
+In this example below, we are removing the range of items of List using removeRange() method.
+
+void main() {
+
+  var list = [10, 20, 30, 40, 50];
+
+  print("List before removing element:${list}");
+
+  list.removeRange(0, 3);
+
+  print("List after removing range element:${list}");
+
+}
+
+OUTPUT
+List before removing element:[10, 20, 30, 40, 50]
+List after removing range element:[40, 50]

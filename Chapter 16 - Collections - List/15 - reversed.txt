@@ -1,0 +1,12 @@
+It returns a List in reverse order.
+
+void main() 
+{
+  List<String> drinks = ["water", "juice", "milk", "coke"];  
+  
+  print("List in reverse: ${drinks.reversed}");
+   
+}  
+
+OUTPUT
+List in reverse: (coke, milk, juice, water)

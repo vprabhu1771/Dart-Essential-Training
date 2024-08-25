@@ -1,0 +1,17 @@
+codeUnitAt: Returns the Unicode code unit of the character at the specified index.
+
+void main() {   
+   
+    String myString = "Hello";
+    
+    print(myString.codeUnitAt(1));
+  
+    // 101 (ASCII value of 'e')
+    int codeUnit = myString.codeUnitAt(1);
+
+    print(codeUnit);
+}
+
+output
+101
+101

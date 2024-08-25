@@ -1,0 +1,18 @@
+It returns true if the List is not empty and false if the List is empty.
+
+void main() 
+{
+  List<String> drinks = ["water", "juice", "milk", "coke"];
+   
+  List<int>  ages = [];
+   
+  
+  print("Is drinks not Empty: "+drinks.isNotEmpty.toString());
+  
+  print("Is ages not Empty: "+ages.isNotEmpty.toString());
+   
+}  
+
+OUTPUT
+Is drinks not Empty: true
+Is ages not Empty: false
