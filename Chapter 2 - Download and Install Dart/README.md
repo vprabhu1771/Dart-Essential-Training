@@ -35,12 +35,12 @@ By default, the SDK is installed at C:\tools\dart-sdk. You can change that locat
 
 If you can’t use the Dart SDK executables, add the SDK location to your PATH:
 
-    In the Windows search box, type env.
-    Click Edit the system environment variables.
-    Click Environment Variables….
-    In the user variable section, select Path and click Edit….
-    Click New, and enter the path to the dart-sdk directory.
-    In each window that you just opened, click Apply or OK to dismiss it and apply the path change.
+In the Windows search box, type env.
+Click Edit the system environment variables.
+Click Environment Variables….
+In the user variable section, select Path and click Edit….
+Click New, and enter the path to the dart-sdk directory.
+In each window that you just opened, click Apply or OK to dismiss it and apply the path change.
 
 
 System requirements
@@ -48,6 +48,6 @@ System requirements
 The Dart SDK is supported on Windows, Linux, and macOS.
 Windows
 
-    Supported versions: Windows 10 and 11.
-    Supported architectures: x64, IA32, ARM64.
-    Support for ARM64 is experimental, and is available only in the dev channel.
+Supported versions: Windows 10 and 11.
+Supported architectures: x64, IA32, ARM64.
+Support for ARM64 is experimental, and is available only in the dev channel.
