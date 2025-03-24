@@ -1,7 +1,5 @@
 # 1 - Conditions Statements Topics
 
-# Conditions Statements Topics
-
 1. **if statement**  
 2. **if else statement**  
 3. **if else with logical operator**  
