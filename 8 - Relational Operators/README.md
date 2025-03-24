@@ -1,12 +1,13 @@
 # 1 - Relational Operators Table
 
-No	Relational Operators	Meaning
-1	<	Less Than
-2	<= 	Less Than or Equal to
-3	>	Greater Than
-4	>=	Greater Than or Equal to
-5	==	Equal to
-6	!= 	Not Equal to
+| No | Relational Operators | Meaning                     |
+|----|----------------------|----------------------------|
+| 1  | <                   | Less Than                  |
+| 2  | <=                  | Less Than or Equal to      |
+| 3  | >                   | Greater Than               |
+| 4  | >=                  | Greater Than or Equal to   |
+| 5  | ==                  | Equal to                   |
+| 6  | !=                  | Not Equal to               |
 
 # 2 - Less Than Example
 
