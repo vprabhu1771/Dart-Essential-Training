@@ -1,23 +1,26 @@
-# 1 - print
+# Dart Basics
 
-```
-void main() 
+## 1 - Print Statement
+
+```dart
+void main()
 {
   print('Hello, World!');
 }
 ```
 
-Output
-Hello, World!
-
-# 2 - stdout
-
+**Output:**
 ```
+Hello, World!
+```
+
+## 2 - Using stdout for Input
+
+```dart
 import 'dart:io';
 
-void main() 
+void main()
 {
-  
   // The text will be displayed without a newline character.
   stdout.write('Enter your name: ');
   
@@ -28,45 +31,40 @@ void main()
 }
 ```
 
-Output
+**Output:**
+```
 Enter your name: prabhu
 Hello, prabhu!
-
-# 3 - String Concatination - Using the '+' operator
-
 ```
+
+## 3 - String Concatenation - Using the '+' Operator
+
+```dart
 void main() {
-  
   String str1 = "Hello";
-
   String str2 = "World";
-
   String result = str1 + " " + str2;
-
   print(result);
-
 }
 ```
 
-Output
-Hello World
-
-# 4 - String Concatination - Using string interpolation
-
+**Output:**
 ```
+Hello World
+```
+
+## 4 - String Concatenation - Using String Interpolation
+
+```dart
 void main() {
-  
   String str1 = "Hello";
-
   String str2 = "World";
-
   String result = "$str1 $str2";
-
   print(result);
-
 }
 ```
 
-
-Output
+**Output:**
+```
 Hello World
+```
