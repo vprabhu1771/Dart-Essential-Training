@@ -1,8 +1,9 @@
 # 1 - Logical Operators Table
 
-No	Logical Operators	Meaning
-1	&&	AND 
-2	||	OR
+| No | Logical Operators | Meaning |
+|----|------------------|---------|
+| 1  | &&              | AND     |
+| 2  | \|\|           | OR      |
 
 # 2 - AND Example
 
