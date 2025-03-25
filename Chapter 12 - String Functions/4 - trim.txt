@@ -1,18 +1,15 @@
 trim: Removes leading and trailing whitespace from a string.
 
+```
 void main() {
-    
-    String myString = "   Hello, Dart!   ";
+ 
+  String data = "   Hello, World!   ";
 
-    // "Hello, Dart!"
-    String trimmedString = myString.trim();
-
-    print(myString.trim());
-  
-    print(trimmedString);  
-
+  print(data.trim());
 }
+```
 
-output
-Hello, Dart!
-Hello, Dart!
+**OUTPUT**
+```
+Hello, World!
+```

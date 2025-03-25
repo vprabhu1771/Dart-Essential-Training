@@ -1,21 +1,16 @@
 substring: Extracts a substring from a given string.
 
-void main() {   
+```
+void main() {
+ 
+  String data = "Hello, World!";
 
-    String myString = "Hello, Dart!";
-    
-    // "Dart!"
-    String subString = myString.substring(7);
+  print(data.substring(7));
   
-    print(subString);
-    
-    // "Dart"
-    String subStringWithRange = myString.substring(7, 12);
-    
-    print(subStringWithRange);    
-
 }
+```
 
-output
-Dart!
-Dart!
+**OUTPUT**
+```
+World!
+```

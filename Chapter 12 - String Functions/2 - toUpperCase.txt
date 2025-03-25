@@ -1,17 +1,15 @@
 toUpperCase : Converts a string to uppercase.
 
+```
 void main() {
-    
-    String myString = "Hello, Dart!";
+ 
+  String data = "prabhu";
 
-    // "HELLO, DART!"  
-    String upperCaseString = myString.toUpperCase();
-  
-    print(myString.toUpperCase());
-  
-    print(upperCaseString);
-
+  print(data.toUpperCase());
 }
+```
 
-OUTPUT
-HELLO, DART!
+**OUTPUT**
+```
+PRABHU
+```

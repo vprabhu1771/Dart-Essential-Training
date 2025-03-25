@@ -1,14 +1,18 @@
 split: Splits a string into a list of substrings based on a delimiter.
 
-void main() {   
+```
+void main() {
+ 
+  String data = "apple,banana,orange";
+  
+  List<String> fruits = data.split(",");
+  
+  print(fruits);
 
-    String myString = "Apple,Orange,Banana";
-    
-    // ["Apple", "Orange", "Banana"]
-    List<String> fruits = myString.split(",");
-
-    print(fruits);
 }
+```
 
-output
-[Apple, Orange, Banana]
+**OUTPUT**
+```
+[apple, banana, orange]
+```

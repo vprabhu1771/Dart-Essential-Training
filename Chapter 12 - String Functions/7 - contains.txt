@@ -1,18 +1,16 @@
 contains: Checks if a string contains a specific substring.
 
-void main() {   
+```
+void main() {
+ 
+  String data = "Hello, World!";
 
-    String myString = "Hello, Dart!";
-
-    print(myString.contains("Dart"));
-  
-    // true
-    bool containsDart = myString.contains("Dart");
-  
-    print(containsDart);
+  print(data.contains("World"));
 
 }
+```
 
-output
+**OUTPUT**
+```
 true
-true
+```

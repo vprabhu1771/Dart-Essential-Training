@@ -1,22 +1,15 @@
 startsWith : Checks if a string starts with a specific substring.  (with optional index): These methods can also be used with an optional index parameter to check for substrings starting/ending at a specific index.
 
+```
 void main() {
-    
-    String myString = "Hello, Dart!";
+ 
+  String data = "Hello, World!";
 
-    // true
-    bool startsWithHello = myString.startsWith("Hello");
-  
-    print(startsWithHello);
-
-    // true
-    bool startsWithDart = myString.startsWith("Dart", 7);   
-  
-    print(startsWithDart);  
-
+  print(data.startsWith("Hello"));  
 }
+```
 
-output
+**OUTPUT**
+```
 true
-true
-
+```

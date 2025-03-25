@@ -1,18 +1,15 @@
 toLowerCase: Converts a string to lowercase.
 
+```
 void main() {
-    
-    String myString = "HELLO, DART!";
+ 
+  String data = "PRABHU";
 
-    // "hello, dart!"
-    String lowerCaseString = myString.toLowerCase(); 
-
-    print(myString.toLowerCase());
-  
-    print(lowerCaseString);  
-
+  print(data.toLowerCase());
 }
+```
 
-OUTPUT
-
-hello, dart!
+**OUTPUT**
+```
+prabhu
+```

@@ -1,21 +1,15 @@
 endsWith: Checks if a string ends with a specific substring.  (with optional index): These methods can also be used with an optional index parameter to check for substrings starting/ending at a specific index.
 
-void main() {   
+```
+void main() {
+ 
+  String data = "Hello, World!";
 
-    String myString = "Hello, Dart!";
-
-    // true
-    bool endsWithDart = myString.endsWith("Dart");
-  
-    print(endsWithDart); 
-
-    // true
-    bool endsWithHello = myString.endsWith("Hello");  
-  
-    print(endsWithHello);  
-
+  print(data.endsWith("World!"));  
 }
+```
 
-output
+**OUTPUT**
+```
 true
-true
+```

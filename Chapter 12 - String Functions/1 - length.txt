@@ -1,18 +1,17 @@
 length: Returns the number of characters in a string.
+To get the length of a string, you can use the length property.
 
+```    
 void main() {
-    
-    String myString = “Hello, Dart!”;
  
-   // length will be 12
-    int length = myString.length;
+  String data = "prabhu";
   
-    print(myString.length);
-  
-    print(length);
+  print(data.length); // Outputs: 13
 
 }
+```
 
-output
-12
-12
+**OUTPUT**
+```
+6
+```
