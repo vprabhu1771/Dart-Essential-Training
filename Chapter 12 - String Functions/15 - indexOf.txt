@@ -15,3 +15,17 @@ void main() {
 output
 2
 2
+
+These methods return the index of the first occurrence indexOf of a specified substring within the string, or -1 if the substring is not found.
+
+void main() {
+ 
+  String data = "Hello, World!";
+
+  print(data.indexOf("o"));
+  
+}
+
+OUTPUT
+
+4

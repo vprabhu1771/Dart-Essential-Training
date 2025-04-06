@@ -1,4 +1,15 @@
 padLeft: Pads a string on the left with a specified character until it reaches a certain length.
 
-String myString = "Dart";
-String paddedLeft = myString.padLeft(10, '-'); // "------Dart"
+These methods pad the string with a specified character (or whitespace by default) until the resulting string reaches the specified length.
+
+void main() {
+  
+  String data = "Hello";
+  
+  print(data.padLeft(10, "*"));
+
+}
+
+OUTPUT
+
+*****Hello

@@ -1,5 +1,15 @@
 padRight: Pads a string on the right with a specified character until it reaches a certain length.
 
-String myString = "Dart";
+These methods pad the string with a specified character (or whitespace by default) until the resulting string reaches the specified length.
 
-String paddedRight = myString.padRight(10, '-'); // "Dart------"
+void main() {
+  
+  String data = "Hello";
+  
+  print(data.padRight(10, "*"));
+
+}
+
+OUTPUT
+
+Hello*****

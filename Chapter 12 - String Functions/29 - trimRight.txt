@@ -1,5 +1,15 @@
 trimRight: Removes trailing whitespace from a string.
 
-String myString = "   Hello, Dart!   ";
+These methods remove leading or trailing whitespace (or other characters) from the string.
 
-String trimmedRight = myString.trimRight(); // "   Hello, Dart!"
+void main() {
+  
+  String data = "   Hello, World!   ";
+
+  print(data.trimRight());
+
+}
+
+OUTPUT
+
+Hello, World!   

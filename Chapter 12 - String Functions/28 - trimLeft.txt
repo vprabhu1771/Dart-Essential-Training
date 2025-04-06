@@ -1,4 +1,15 @@
 trimLeft: Removes leading whitespace from a string.
 
-String myString = "   Hello, Dart!   ";
-String trimmedLeft = myString.trimLeft(); // "Hello, Dart!   "
+These methods remove leading or trailing whitespace (or other characters) from the string.
+
+void main() {
+  
+  String data = "   Hello, World!   ";
+
+  print(data.trimLeft());
+
+}
+
+OUTPUT
+
+Hello, World!   
